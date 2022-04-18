@@ -35,7 +35,7 @@ class App extends Component {
             return <Account key={user.username} user={user} />;
           })
         ) : (
-          <h3>Fetching Users...</h3>
+          <h3>Loading Users...</h3>
         )}
       </React.Fragment>
     );
